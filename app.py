@@ -139,13 +139,61 @@ def home():
     <head>
         <title>MyStudyTrack.com</title>
         <style>
+        h2 {{
+    font-size: 24px;
+    margin: 20px auto 12px;
+}}
+
+p {{
+    font-size: 16px;
+}}
+
+input, select, button {{
+    font-size: 14px;
+    padding: 8px 10px;
+}}
+
+li {{
+    font-size: 16px;
+}}
+
+h1 {{
+    margin-bottom: 8px;
+}}
+
+p {{
+    margin-top: 0;
+    margin-bottom: 12px;
+}}
+
+h2 {{
+    margin-top: 12px;
+}}
+
+
+
     body {{
         font-family: Arial, sans-serif;
         background-color: #111111;
         color: white;
-        margin: 40px;
+        width: 90%;
+        max-width: 900px;
+        margin: 0 auto;
+        ppadding-top: 20px;
+        text-align: center;
+    }}
+    form {{
+    text-align: center;
     }}
 
+    ul {{
+    padding: 0;
+    list-style-position: inside;
+    }}
+
+    li {{
+    text-align: center;
+    }}  
     h1 {{
         color: #e10600;
         font-size: 42px;
@@ -156,6 +204,8 @@ def home():
         border-bottom: 2px solid #e10600;
         padding-bottom: 8px;
         max-width: 700px;
+        width: 70%;
+        margin: 30px auto 20px;
     }}
 
     input, select, button {{
